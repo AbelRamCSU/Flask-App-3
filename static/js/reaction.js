@@ -50,7 +50,7 @@
     if (state === "waiting") {
       clearTimeout(timer);
       btn.classList.add("tooSoon");
-      output.textContent = "FALSE START 💀";
+      output.textContent = "FALSE START ";
       status.textContent = "Too soon!";
       setState("done");
       return;
