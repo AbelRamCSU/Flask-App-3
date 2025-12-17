@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Index | Reaction Time Test{% endblock %}
+
+{% block content %}
+  <center><h2>Welcome</h2>
+ <p>
+    This application measures how quickly you react to a visual change.
+  </p>
+
+  <div class="buttons">
+    <a href="{{ url_for('page1') }}">View Instructions</a>
+    <p> </p>
+    <a href="{{ url_for('page2') }}">Start Test</a>
+  </div>
+{% endblock %}

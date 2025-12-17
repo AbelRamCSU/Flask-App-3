@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Page 1 | Instructions{% endblock %}
+
+{% block content %}
+  <center><h2>Instructions (not that hard)</h2>
+
+  
+    <p>Click the Start button.</p>
+    <p>Wait patiently for the button to change color.</p>
+    <p>Click immediately when it turns green.</p>
+    <p>Your reaction time will be shown in milliseconds.</p>
+    <br> </br>
+
+  <a href="{{ url_for('page2') }}">Begin Test</a>
+{% endblock %}

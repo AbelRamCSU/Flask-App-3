@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Page 2 | Reaction Test{% endblock %}
+
+{% block head %}
+  <script defer src="{{ url_for('static', filename='js/reaction.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+  <center><h2>Reaction Test</h2>
+
+  <p id="status">Click start and wait for green.</p>
+
+  <button id="bigBtn" type="button">START</button>
+
+  <p id="output">—</center></p>
+{% endblock %}
